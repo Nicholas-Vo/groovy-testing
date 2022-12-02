@@ -1,7 +1,3 @@
-/*
-Delete all files in current directory
- */
-
 import groovy.io.FileType
 
 File dir = new File(getClass().protectionDomain.codeSource.location.path).parent as File
@@ -20,7 +16,8 @@ if (answer != 'Y') {
 }
 
 dir.eachFileRecurse(FileType.FILES) { file ->
-    //file.delete()
-    println file
+    file.delete()
 }
+
+
 
