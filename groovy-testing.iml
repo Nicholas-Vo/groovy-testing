@@ -13,7 +13,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../GroovyExtension/out/artifacts/GroovyExtension_jar/GroovyExtension.jar!/" />
+          <root url="jar://$MODULE_DIR$/../GroovyExtension-2/out/artifacts/GroovyExtension_jar/GroovyExtension.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

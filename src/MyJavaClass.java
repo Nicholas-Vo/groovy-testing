@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class MyJavaClass {
 
     static void main(String[] args) {
@@ -7,6 +9,8 @@ class MyJavaClass {
         int num = scan.nextInt();
 
         System.out.println("You entered " + num + ".");
+
+        String[] array = {"Hello", "World", "!"};
     }
 
 }

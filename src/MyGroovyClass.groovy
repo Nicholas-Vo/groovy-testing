@@ -1,25 +1,29 @@
+class MyGroovyClass {
 
+    static void main(String... args) {
+        println("Groovy supports both classes and scripts")
+        System.out.println("Groovy runs on top of Java.")
 
-    class MyGroovyClass {
+        def defMsg = "Groovy is optionally typed."
+        String hello = "Hello World"
 
-        static void main(String... args) {
-            println 'Groovy supports classes.'
-            System.out.println("Groovy runs on top of Java.\n")
+        printMessage(defMsg)
+        printMessage(hello)
 
-            def message = "Groovy is a great language to learn"
-            println message
-            println message.removeVowels()
-
-            StringBuilder sb = new StringBuilder()
-
-            for (aString in args) {
-                sb.append(aString)
-            }
-
-            println(sb)
+        StringBuilder builder = new StringBuilder()
+        for (aString in args) {
+            builder.append(args)
         }
 
+        println(builder)
     }
+
+    static def printMessage(def string) {
+        println(string)
+    }
+}
+
+
 
 
 
